@@ -1,0 +1,40 @@
+services:
+  primePoker:
+    image: gabrielsouz/primepoker:latest
+    container_name: primepoker
+    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - REDIS_CONNECTION=redis://redis:6379
+    ports:
+      - "8080:8080"
+#     depends_on:
+#       - redis
+
+#   redis:
+#     image: redis/redis-stack-server:latest
+#     container_name: redis
+#     restart: always
+#     ports:
+#       - "6379:6379"
+#     environment:
+#       - REDIS_ARGS=--save 60 1 --appendonly yes
+#     volumes:
+#       - redis_data:/data
+
+#   redisinsight:
+#     image: redis/redisinsight:2.58
+#     container_name: redisinsight
+#     restart: always
+#     ports:
+#       - "5540:5540"
+#     environment:
+#       - RI_HOST=0.0.0.0
+#     volumes:
+#       - redisinsight_data:/data
+#     depends_on:
+#       - redis
+
+# volumes:
+#   redis_data:
+#   redisinsight_data:

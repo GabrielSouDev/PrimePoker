@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimePoker.Apresentation", "PrimePoker.Apresentation\PrimePoker.Apresentation.csproj", "{695189AC-11A0-4E9B-9E6F-C1583A226AD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimePoker.Application", "PrimePoker.Application\PrimePoker.Application.csproj", "{7CBDD3B3-D66F-4D44-8E0A-7CBF239E9C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimePoker.Domain", "PrimePoker.Domain\PrimePoker.Domain.csproj", "{5238AE76-3124-47AF-824F-FD30056D88C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{380A7511-A354-6D7A-0CC0-8FA1F1BA7B6C}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{695189AC-11A0-4E9B-9E6F-C1583A226AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695189AC-11A0-4E9B-9E6F-C1583A226AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695189AC-11A0-4E9B-9E6F-C1583A226AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695189AC-11A0-4E9B-9E6F-C1583A226AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CBDD3B3-D66F-4D44-8E0A-7CBF239E9C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CBDD3B3-D66F-4D44-8E0A-7CBF239E9C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CBDD3B3-D66F-4D44-8E0A-7CBF239E9C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CBDD3B3-D66F-4D44-8E0A-7CBF239E9C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5238AE76-3124-47AF-824F-FD30056D88C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5238AE76-3124-47AF-824F-FD30056D88C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5238AE76-3124-47AF-824F-FD30056D88C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5238AE76-3124-47AF-824F-FD30056D88C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {101D9848-CC70-485D-BA36-22CF9DB637C3}
+	EndGlobalSection
+EndGlobal
